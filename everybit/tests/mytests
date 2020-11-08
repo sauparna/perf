@@ -33,4 +33,33 @@
 # r 0 8 -1
 # e 00101101
 
-# Place your 20 test cases below, here.
+# Rotate 1 left
+t 1
+n 1001 
+r 0 4 -1
+e 0011
+
+# Rotate 1 right
+t 2
+n 1001 
+r 0 4 1
+e 1100
+
+# Rotate 5 left; equivalent to 1 left
+t 3
+n 1001
+r 0 4 -5
+e 0011
+
+# Rotate 5 right; equivalent to 1 right
+t 4
+n 1001
+r 0 4 5
+e 1100
+
+# 1 bit
+# all 1 bit
+t 6
+n 111
+r 0 3 1
+e 111
